@@ -1,5 +1,5 @@
 import XCTest
-@testable import AppFeature
+@testable import App
 
 final class SwiftPackageManagedAppTests: XCTestCase {
     func testExample() throws {

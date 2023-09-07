@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C3968862AA9A09400AA85D9 /* AppFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 6C3968852AA9A09400AA85D9 /* AppFeature */; };
+		6C3968882AA9A38B00AA85D9 /* App in Frameworks */ = {isa = PBXBuildFile; productRef = 6C3968872AA9A38B00AA85D9 /* App */; };
 		6C7FD3D72AA98F1600F752F9 /* ProductionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7FD3D62AA98F1600F752F9 /* ProductionApp.swift */; };
 		6C7FD3DB2AA98F1700F752F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C7FD3DA2AA98F1700F752F9 /* Assets.xcassets */; };
 		6C7FD3DE2AA98F1700F752F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C7FD3DD2AA98F1700F752F9 /* Preview Assets.xcassets */; };
@@ -26,7 +26,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C3968862AA9A09400AA85D9 /* AppFeature in Frameworks */,
+				6C3968882AA9A38B00AA85D9 /* App in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +93,7 @@
 			);
 			name = Production;
 			packageProductDependencies = (
-				6C3968852AA9A09400AA85D9 /* AppFeature */,
+				6C3968872AA9A38B00AA85D9 /* App */,
 			);
 			productName = Production;
 			productReference = 6C7FD3D32AA98F1600F752F9 /* Production.app */;
@@ -348,9 +348,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		6C3968852AA9A09400AA85D9 /* AppFeature */ = {
+		6C3968872AA9A38B00AA85D9 /* App */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = AppFeature;
+			productName = App;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
