@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  Session.swift
 //  
 //
 //  Created by 日野森 寛也（Hiroya Hinomori） on 2023/09/07.
@@ -7,6 +7,12 @@
 
 import APIKit
 import Foundation
+
+public enum Session {
+    public static var stub: SessionProtocol {
+        StubSession()
+    }
+}
 
 struct StubSession: SessionProtocol {
     struct Adapter: SessionAdapter {
