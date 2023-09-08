@@ -8,6 +8,8 @@
 import SwiftUI
 import API
 
+class Ancher {}
+
 public struct AppView: View {
     static let text = "Hello, World!"
     @State var accessToken: String?
@@ -20,10 +22,15 @@ public struct AppView: View {
     }
     
     public var body: some View {
-        Group {
-            Text(Self.text)
-            Text(accessToken ?? "")
-            Text(refreshToken ?? "")
+        NavigationStack {
+            VStack(spacing: 10) {
+                Text(Self.text)
+                Text(accessToken ?? "")
+                Text(refreshToken ?? "")
+                NavigationLink("Next") {
+                    ContentView()
+                }
+            }
         }
         .task {
             do {
